@@ -1,24 +1,10 @@
 import styled from 'styled-components'
 import React from 'react'
-
-const StyledPost = styled.div``
-
-const StyledImage = styled.image``
-
-const StyledNameBar = styled.div``
-
-const StyledName = styled.div``
-
-const StyledTwitterName = styled.div``
-
-const StyledDate = styled.div``
-
-const StyledContent = styled.div``
-
-const StyledBottomBar = styled.div``
-
-const StyledBottomBarElement = styled.div``
-
+import {StyledPost, StyledImage, StyledNameBar, StyledName, StyledTwitterName, StyledDate, StyledContent, StyledBottomBar, StyledBottomBarElement, StyledBody} from './post.styles'
+import {ReactComponent as CommentIcon} from '../../assets/images/comment.svg'
+import {ReactComponent as ShareIcon} from '../../assets/images/share.svg'
+import {ReactComponent as HeartIcon} from '../../assets/images/heart.svg'
+import {ReactComponent as DownloadIcon} from '../../assets/images/download.svg'
 
 const Post = (props: Post) => {
     const { userImage, username, twitterName, date, content, comments, retweets, likes, postId} = props.postData
@@ -28,18 +14,31 @@ const Post = (props: Post) => {
             <StyledImage>
                 <img src={userImage} alt={twitterName} />
             </StyledImage>
-            <StyledNameBar>
-                <StyledName></StyledName>
-                <StyledTwitterName></StyledTwitterName>
-                <StyledDate></StyledDate>
-            </StyledNameBar>
-            <StyledContent>{content}</StyledContent>
-            <StyledBottomBar>
-                <StyledBottomBarElement></StyledBottomBarElement>
-                <StyledBottomBarElement></StyledBottomBarElement>
-                <StyledBottomBarElement></StyledBottomBarElement>
-                <StyledBottomBarElement></StyledBottomBarElement>
-            </StyledBottomBar>
+            <StyledBody>
+                <StyledNameBar>
+                    <StyledName>{username}</StyledName>
+                    <StyledTwitterName>{twitterName}</StyledTwitterName>
+                    <StyledDate>{date}</StyledDate>
+                </StyledNameBar>
+                <StyledContent>{content}</StyledContent>
+                <StyledBottomBar>
+                    <StyledBottomBarElement>
+                        <CommentIcon />
+                        <div>{comments}</div>
+                    </StyledBottomBarElement>
+                    <StyledBottomBarElement>
+                        <ShareIcon />
+                        <div>{retweets}</div>
+                    </StyledBottomBarElement>
+                    <StyledBottomBarElement>
+                        <HeartIcon />
+                        <div>{likes}</div>
+                    </StyledBottomBarElement>
+                    <StyledBottomBarElement>
+                        <DownloadIcon />
+                    </StyledBottomBarElement>
+                </StyledBottomBar>
+            </StyledBody>
         </StyledPost>
     )
 }
