@@ -1,5 +1,7 @@
 import React from 'react';
-import NavbarItem from '../navbar-item/navbar-item'
+import BarItem from '../bar-item/bar-item'
+import {StyledSidebar, StyledBarItems} from './sidebar.styles'
+
 
 import {ReactComponent as BellIcon} from '../../assets/images/bell.svg'
 import {ReactComponent as FeatherIcon} from '../../assets/images/feather.svg'
@@ -10,18 +12,18 @@ import {ReactComponent as MagnifierIcon} from '../../assets/images/magnifier.svg
 import {ReactComponent as StarIcon} from '../../assets/images/star.svg'
 import {ReactComponent as UserIcon} from '../../assets/images/user.svg'
 
-const Navbar = () => {
+const Sidebar = () => {
     return(
-        <nav>
-            <NavbarItem displayText ='Home' Icon = {HouseIcon} />
-            <NavbarItem displayText ='Explore' Icon = {FeatherIcon} />
-            <NavbarItem displayText ='Notifications' Icon = {BellIcon} />
-            <NavbarItem displayText ='Messages' Icon = {BellIcon} />
-            <NavbarItem displayText ='Bookmarks' Icon = {MagnifierIcon} />
-            <NavbarItem displayText ='Lists' Icon = {HouseIcon} />
-            <NavbarItem displayText ='Profile' Icon = {UserIcon} />          
-        </nav>
+        <StyledSidebar>
+            <StyledBarItems>
+                <BarItem displayText ='Home' Icon = {HouseIcon} />
+                <BarItem displayText ='Search' Icon = {MagnifierIcon} />
+                <BarItem displayText ='Notifications' Icon = {BellIcon} />
+                <BarItem displayText ='Messages' Icon = {LetterIcon} />
+                <BarItem displayText ='Profile' Icon = {UserIcon} />          
+            </StyledBarItems>
+        </StyledSidebar>
     )
 }
 
-export default Navbar
+export default Sidebar

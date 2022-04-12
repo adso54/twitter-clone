@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components'
 
 
-const StyledNavbarItem = styled.div`
+const StyledBarItem = styled.div`
     display: flex;
     padding: 0.25em  
 `
@@ -18,20 +18,20 @@ const StyledIcon = styled.div`
     align-self: center;
 `
 
-const NavbarItem = (props: {displayText: string, Icon: any}) => {
-    const {displayText, Icon} = props;
+const BarItem = (props: {displayText: string, Icon: any, hiddenText?: boolean}) => {
+    const {displayText, Icon, hiddenText} = props;
     
 
     return(
-        <StyledNavbarItem>
+        <StyledBarItem>
             <StyledIcon>
                 <Icon />
             </StyledIcon>
             <StyledText>
-                {displayText}
+                {!hiddenText ? displayText : ""}
             </StyledText>
-        </StyledNavbarItem>
+        </StyledBarItem>
     )
 }
 
-export default NavbarItem
+export default BarItem

@@ -1,14 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Navbar from './components/navbar/navbar'
-import Post from './components/post/post'
 import testData from './data.json'
+
+import Sidebar from './components/sidebar/sidebar'
+import Post from './components/post/post'
+import Mainbar from './components/mainbar/mainbar'
 
 function App() {
   return (
     <div className="App">
-        <Navbar></Navbar>
+        <Mainbar />
+        <Sidebar />
         <Post postData={testData.posts[0]} />
     </div>
   );
