@@ -1,5 +1,4 @@
 type Post = {
-    postData: {
         userImage: string,
         username: string,
         twitterName: string,
@@ -8,6 +7,10 @@ type Post = {
         comments: number,
         retweets: number,
         likes: number,
-        postId: string
-    }      
+        postId: string    
 }
+
+type PostsList = {
+    postsList: Post[]
+}
+

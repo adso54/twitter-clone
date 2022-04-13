@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from 'styled-components'
 
 
@@ -10,6 +9,7 @@ const StyledBarItem = styled.div`
 const StyledText = styled.div`
     font-size: 1.5em;
     padding: 0.25em; 
+    display: none; 
 `
 
 const StyledIcon = styled.div`
