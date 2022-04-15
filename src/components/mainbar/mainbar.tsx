@@ -1,5 +1,5 @@
 import {ReactComponent as StarIcon} from '../../assets/images/star.svg'
-import {StyledMainbar, StyledMainbarWithProfile, StyledBarItem} from './mainbar.styles'
+import {StyledMainbar, StyledMainbarWithProfile, StyledProfile} from './mainbar.styles'
 
 import {ReactComponent as UserIcon} from '../../assets/images/user.svg'
 
@@ -9,9 +9,9 @@ const Mainbar = () => {
 
     return(
         <StyledMainbarWithProfile>
-            <StyledBarItem>
+            <StyledProfile>
                 <BarItem displayText ='Profile' Icon = {UserIcon} hiddenText = {true}/>
-            </StyledBarItem>
+            </StyledProfile>
             <StyledMainbar>
                     
                 <div>Główna</div>

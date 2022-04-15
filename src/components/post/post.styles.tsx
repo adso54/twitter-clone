@@ -1,8 +1,9 @@
 import styled from 'styled-components'
+import colors from '../../utils/appColors'
 
 const StyledPost = styled.div`
     display: flex;
-    border: solid 1px #788C92
+    border: solid 1px ${colors.font_primary}
 `
 
 const StyledImage = styled.image`
@@ -28,12 +29,12 @@ const StyledName = styled.div`
 `
 
 const StyledTwitterName = styled.div`
-    color: #788C92;
+    color: ${colors.font_secondary};
     padding: 0.2em;
 `
 
 const StyledDate = styled.div`
-    color: #788C92;
+    color: ${colors.font_secondary};
     padding: 0.2em;
 `
 

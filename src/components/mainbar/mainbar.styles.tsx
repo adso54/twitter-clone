@@ -1,6 +1,7 @@
 import styled from 'styled-components'
+import {mediaQueries} from '../../utils/mediaQueries'
 
-const StyledBarItem = styled.div`
+const StyledProfile = styled.div`
     width: 3em;
     align-self: center;
 `
@@ -16,6 +17,11 @@ const StyledMainbar = styled.div`
     font-weight: bold;
     font-size: 1.2em;
     width: 100%;
+
+    ${mediaQueries("tablet")`
+        grid-area: mainbar
+            
+    `}
 `
 
-export {StyledMainbar, StyledMainbarWithProfile, StyledBarItem}
+export {StyledMainbar, StyledMainbarWithProfile, StyledProfile}
