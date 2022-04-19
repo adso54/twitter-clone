@@ -10,8 +10,8 @@ const StyledApp = styled.div`
     ${mediaQueries("tablet")`
         display: grid;
         grid-template-areas: 
-            "sidebar mainbar"
-            "sidebar postslist"            
+            "sidebar mainbar popular"
+            "sidebar postslist popular"            
     `}
 
 `
