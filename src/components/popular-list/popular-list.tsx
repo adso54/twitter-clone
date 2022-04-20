@@ -9,8 +9,8 @@ const PopularList = (props: PopularElementsList) => {
                 Najpopularniejsze dla Ciebie
             </StyledPopularBar>
             <StyledPopularList>
-                {popularList.map((element,index) => {
-                        const elemId = `popular_${index}`
+                {popularList.map((element) => {
+                        const elemId = element.titleId
                         return <PopularElement key={elemId} {... element} />
                     }
                     )}
