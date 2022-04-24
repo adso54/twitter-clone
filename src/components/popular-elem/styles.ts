@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import colors from '../../utils/appColors'
-import {mediaQueries, breakpoints} from '../../utils/mediaQueries'
+import {mediaQueries} from '../../utils/mediaQueries'
 
 
 const StyledPopularElement = styled.div`

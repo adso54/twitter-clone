@@ -1,5 +1,5 @@
-import {StyledNewTwitt, StyledTwittIcon, StyledText} from './new-twitt.styles'
-import {ReactComponent as FeatherIcon} from '../../assets/images/feather.svg'
+import {StyledNewTwitt, StyledTwittIcon, StyledText} from './styles'
+import {FeatherIcon} from '../../assets/images/index'
 
 const NewTwitt = () => {
     return(

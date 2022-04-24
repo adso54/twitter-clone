@@ -1,8 +1,8 @@
-import {StyledSidebar, StyledBarItems} from './sidebar.styles'
+import {StyledSidebar, StyledBarItems} from './styles'
 
-import BarItem from '../bar-item/bar-item'
-import LogoItem from '../logo-item/logo-item'
-import NewTwitt from '../new-twitt/new-twitt'
+import {BarItem} from '../index'
+import {LogoItem} from '../index'
+import {NewTwitt} from '../index'
 
 import {BellIcon, HouseIcon, LetterIcon, LogoIcon, MagnifierIcon, UserIcon } from '../../assets/images/index'
 
@@ -15,10 +15,9 @@ const Sidebar = () => {
                 <BarItem displayText ='Search' Icon = {MagnifierIcon} />
                 <BarItem displayText ='Notifications' Icon = {BellIcon} />
                 <BarItem displayText ='Messages' Icon = {LetterIcon} />
-                <NewTwitt /> 
+                <NewTwitt/> 
                 <BarItem displayText ='Profile' Icon = {UserIcon} />                      
             </StyledBarItems>
-            
         </StyledSidebar>
     )
 }

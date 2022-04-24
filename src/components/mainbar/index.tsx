@@ -1,9 +1,9 @@
 import {ReactComponent as StarIcon} from '../../assets/images/star.svg'
-import {StyledMainbar, StyledMainbarWithProfile, StyledProfile} from './mainbar.styles'
+import {StyledMainbar, StyledMainbarWithProfile, StyledProfile} from './styles'
 
 import {UserIcon} from '../../assets/images/index'
 
-import BarItem from '../bar-item/bar-item'
+import {BarItem} from '../index'
 
 const Mainbar = () => {
 

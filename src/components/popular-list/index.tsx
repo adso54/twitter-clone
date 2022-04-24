@@ -1,5 +1,5 @@
-import {StyledPopular, StyledPopularBar, StyledPopularList} from './popular-list.styles'
-import PopularElement from '../popular-elem/popular-elem'
+import {StyledPopular, StyledPopularBar, StyledPopularList} from './styles'
+import {PopularElement} from '../index'
 import React from 'react'
 
 const PopularList = (props: PopularElementsList) => {

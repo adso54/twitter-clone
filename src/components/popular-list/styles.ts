@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import {mediaQueries} from '../../utils/mediaQueries'
-import colors from '../../utils/appColors'
+
 
 const StyledPopular = styled.div`
     display: none;

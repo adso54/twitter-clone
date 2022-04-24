@@ -1,4 +1,4 @@
-import {StyledPopularElement, StyledHeader, StyledName, StyledTweets} from './popular-elem.styles'
+import {StyledPopularElement, StyledHeader, StyledName, StyledTweets} from './styles'
 
 
 const PopularElement = (props: PopularElement) => {

@@ -1,9 +1,9 @@
 import testData from './data.json'
 
-import Sidebar from './components/sidebar/sidebar'
-import PostsList from './components/posts-list/posts-list'
-import Mainbar from './components/mainbar/mainbar'
-import PopularList from './components/popular-list/popular-list'
+import Sidebar from './components/sidebar'
+import PostsList from './components/posts-list'
+import Mainbar from './components/mainbar/index'
+import PopularList from './components/popular-list'
 
 // import {Sidebar} from './components'
 

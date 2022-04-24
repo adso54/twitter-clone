@@ -1,5 +1,5 @@
-import {StyledPostsList} from './posts-list.styles'
-import Post from '../post/post'
+import {StyledPostsList} from './styles'
+import {Post} from '../index'
 
 const PostsList = (props: PostsList) => {
     const posts = props.postsList

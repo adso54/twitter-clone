@@ -8,6 +8,6 @@ import {ReactComponent as CommentIcon} from '../../assets/images/comment.svg'
 import {ReactComponent as ShareIcon} from '../../assets/images/share.svg'
 import {ReactComponent as HeartIcon} from '../../assets/images/heart.svg'
 import {ReactComponent as DownloadIcon} from '../../assets/images/download.svg'
+import {ReactComponent as FeatherIcon} from '../../assets/images/feather.svg'
 
-
-export {BellIcon, HouseIcon, LetterIcon, LogoIcon, MagnifierIcon, UserIcon, CommentIcon, ShareIcon, HeartIcon, DownloadIcon }
+export {BellIcon, HouseIcon, LetterIcon, LogoIcon, MagnifierIcon, UserIcon, CommentIcon, ShareIcon, HeartIcon, DownloadIcon, FeatherIcon }

@@ -1,4 +1,4 @@
-import {StyledPost, StyledImage, StyledNameBar, StyledName, StyledTwitterName, StyledDate, StyledContent, StyledBottomBar, StyledBottomBarElement, StyledBody} from './post.styles'
+import {StyledPost, StyledImage, StyledNameBar, StyledName, StyledTwitterName, StyledDate, StyledContent, StyledBottomBar, StyledBottomBarElement, StyledBody} from './styles'
 import { CommentIcon, ShareIcon, HeartIcon, DownloadIcon } from '../../assets/images/index'
 
 const Post = ({ userImage, username, twitterName, date, content, comments, retweets, likes, postId}: Post) => {
