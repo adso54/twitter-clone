@@ -1,11 +1,7 @@
 import {StyledPost, StyledImage, StyledNameBar, StyledName, StyledTwitterName, StyledDate, StyledContent, StyledBottomBar, StyledBottomBarElement, StyledBody} from './post.styles'
-import {ReactComponent as CommentIcon} from '../../assets/images/comment.svg'
-import {ReactComponent as ShareIcon} from '../../assets/images/share.svg'
-import {ReactComponent as HeartIcon} from '../../assets/images/heart.svg'
-import {ReactComponent as DownloadIcon} from '../../assets/images/download.svg'
+import { CommentIcon, ShareIcon, HeartIcon, DownloadIcon } from '../../assets/images/index'
 
-const Post = (props: Post) => {
-    const { userImage, username, twitterName, date, content, comments, retweets, likes, postId} = props
+const Post = ({ userImage, username, twitterName, date, content, comments, retweets, likes, postId}: Post) => {
 
     return(
         <StyledPost id={postId}>

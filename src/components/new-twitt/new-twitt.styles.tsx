@@ -1,9 +1,17 @@
 import styled from 'styled-components'
 
-const StyledNewTwitt = styled.button`
+
+
+
+const flexCentered = `
     display: flex;
     justify-content: center;
     align-items: center;
+`
+
+
+const StyledNewTwitt = styled.button`
+    ${flexCentered}
     background-color: #1DA1F2; 
     border: none;
     border-radius: 50%;

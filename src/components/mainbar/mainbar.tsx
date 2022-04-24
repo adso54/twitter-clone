@@ -1,7 +1,7 @@
 import {ReactComponent as StarIcon} from '../../assets/images/star.svg'
 import {StyledMainbar, StyledMainbarWithProfile, StyledProfile} from './mainbar.styles'
 
-import {ReactComponent as UserIcon} from '../../assets/images/user.svg'
+import {UserIcon} from '../../assets/images/index'
 
 import BarItem from '../bar-item/bar-item'
 
