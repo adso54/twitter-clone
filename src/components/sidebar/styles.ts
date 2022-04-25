@@ -1,19 +1,26 @@
 import styled from 'styled-components'
 import colors from '../../utils/appColors'
+import theme from '../../utils/theme'
 import {generateStylesOnAllResolution} from '../../utils/mediaQueries'
 
 const StyledSidebar = generateStylesOnAllResolution( 
     `position: fixed;
     bottom: 0; 
     width: 100%;
-    border: solid 1px ${colors.font_primary};
+    border: solid 1px ${theme.border_color};
     background-color: ${colors.background_color};
-    height: 3em;`,
+    height: 3em;
+    overflow: hidden;
+    
+    `,
     {
-        tablet:`width: auto;
+        tablet:`
+            width: auto;
             position: static; 
             grid-area: sidebar;
-            height: 100vh;`,
+            height: 100vh;
+            `,
+            
         laptop:``,
         widescreen:``
     },

@@ -1,4 +1,4 @@
-export default {
+export default  {
     background_color: '#15202B',
     font_primary: '#FFFFFF',
     font_secondary: '#788C92',

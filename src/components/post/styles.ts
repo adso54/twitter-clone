@@ -1,10 +1,13 @@
 import styled from 'styled-components'
-import colors from '../../utils/appColors'
 import {generateStylesOnAllResolution} from '../../utils/mediaQueries'
+import theme from '../../utils/theme'
 
 const StyledPost = generateStylesOnAllResolution( 
     `display: flex;
-    border: solid 1px ${colors.font_primary}`,
+    border: solid 1px ${theme.border_color}
+    padding: 1rem;
+    `,
+    
     {
         tablet:``,
         laptop:``,
@@ -60,7 +63,7 @@ const StyledName = generateStylesOnAllResolution(
 )
 
 const StyledTwitterName = generateStylesOnAllResolution( 
-    `color: ${colors.font_secondary};
+    `color: ${theme.font_secondary};
     padding: 0.2em;`,
     {
         tablet:``,
@@ -71,7 +74,7 @@ const StyledTwitterName = generateStylesOnAllResolution(
 )
 
 const StyledDate = generateStylesOnAllResolution( 
-    `color: ${colors.font_secondary};
+    `color: ${theme.font_secondary};
     padding: 0.2em;`,
     {
         tablet:``,
