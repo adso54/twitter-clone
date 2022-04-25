@@ -1,57 +1,119 @@
 import styled from 'styled-components'
 import colors from '../../utils/appColors'
+import {generateStylesOnAllResolution} from '../../utils/mediaQueries'
 
-const StyledPost = styled.div`
-    display: flex;
-    border: solid 1px ${colors.font_primary}
-`
+const StyledPost = generateStylesOnAllResolution( 
+    `display: flex;
+    border: solid 1px ${colors.font_primary}`,
+    {
+        tablet:``,
+        laptop:``,
+        widescreen:``
+    },
+    styled.div
+)
 
-const StyledImage = styled.image`
-    img {
+const StyledImage = generateStylesOnAllResolution( 
+    `img {
         border-radius: 50%;
         width: 3em;
     }
-    padding: 1em
-`
+    padding: 1em`,
+    {
+        tablet:``,
+        laptop:``,
+        widescreen:``
+    },
+    styled.image
+)
 
-const StyledBody = styled.div`
-    display: inline-block;
-`
+const StyledBody = generateStylesOnAllResolution( 
+    `display: inline-block;`,
+    {
+        tablet:``,
+        laptop:``,
+        widescreen:``
+    },
+    styled.div
+)
 
-const StyledNameBar = styled.div`
-    display: flex;
-    justify-content: flex-start;
-`
+const StyledNameBar = generateStylesOnAllResolution( 
+    `display: flex;
+    justify-content: flex-start;`,
+    {
+        tablet:``,
+        laptop:``,
+        widescreen:``
+    },
+    styled.div
+)
 
-const StyledName = styled.div`
-    font-weight: bold;
-    padding: 0.2em;
-`
+const StyledName = generateStylesOnAllResolution( 
+    `font-weight: bold;
+    padding: 0.2em;`,
+    {
+        tablet:``,
+        laptop:``,
+        widescreen:``
+    },
+    styled.div
+)
 
-const StyledTwitterName = styled.div`
-    color: ${colors.font_secondary};
-    padding: 0.2em;
-`
+const StyledTwitterName = generateStylesOnAllResolution( 
+    `color: ${colors.font_secondary};
+    padding: 0.2em;`,
+    {
+        tablet:``,
+        laptop:``,
+        widescreen:``
+    },
+    styled.div
+)
 
-const StyledDate = styled.div`
-    color: ${colors.font_secondary};
-    padding: 0.2em;
-`
+const StyledDate = generateStylesOnAllResolution( 
+    `color: ${colors.font_secondary};
+    padding: 0.2em;`,
+    {
+        tablet:``,
+        laptop:``,
+        widescreen:``
+    },
+    styled.div
+)
 
-const StyledContent = styled.div``
+const StyledContent = generateStylesOnAllResolution( 
+    ``,
+    {
+        tablet:``,
+        laptop:``,
+        widescreen:``
+    },
+    styled.div
+)
 
-const StyledBottomBar = styled.div`
-    display: flex;
+const StyledBottomBar = generateStylesOnAllResolution( 
+    `display: flex;
     justify-content: space-between;
-    padding: 1em;
-   
-`
+    padding: 1em;`,
+    {
+        tablet:``,
+        laptop:``,
+        widescreen:``
+    },
+    styled.div
+)
 
-const StyledBottomBarElement = styled.div`
-    display: flex;
+const StyledBottomBarElement = generateStylesOnAllResolution( 
+    `display: flex;
     justify-content: space-evenly;
-    flex: 1 auto;
-`
+    flex: 1 auto;`,
+    {
+        tablet:``,
+        laptop:``,
+        widescreen:``
+    },
+    styled.div
+)
 
 
 export { 

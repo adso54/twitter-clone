@@ -1,11 +1,4 @@
-import styled from "styled-components";
-
-const StyledLogoItem = styled.div`
-    width: 2em;
-    display:flex; 
-    align-self: center;
-    height: 3em;
-`
+import {StyledLogoItem} from './styles'
 
 const LogoItem = (props: {Icon: any}) => {
     const {Icon} = props;
