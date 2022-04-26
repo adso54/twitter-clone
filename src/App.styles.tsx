@@ -3,12 +3,12 @@ import colors from './utils/appColors'
 import {generateStylesOnAllResolution} from './utils/mediaQueries'
 
 const StyledApp = generateStylesOnAllResolution( 
-    `background-color: ${colors.background_color};
+    `
+    background-color: ${colors.background_color};
     color: ${colors.font_primary}; 
     height: 100vh;
     display: flex;
     flex-direction: column;
-    padding: 1rem;
     `,
     {
         tablet:`display: grid;

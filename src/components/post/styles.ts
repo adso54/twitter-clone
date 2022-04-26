@@ -4,7 +4,7 @@ import theme from '../../utils/theme'
 
 const StyledPost = generateStylesOnAllResolution( 
     `display: flex;
-    border: solid 1px ${theme.border_color}
+    border: solid 1px ${theme.border_color};
     padding: 1rem;
     `,
     
@@ -20,8 +20,8 @@ const StyledImage = generateStylesOnAllResolution(
     `img {
         border-radius: 50%;
         width: 3em;
-    }
-    padding: 1em`,
+    };
+    padding-right: 1em;`,
     {
         tablet:``,
         laptop:``,

@@ -11,7 +11,6 @@ const StyledSidebar = generateStylesOnAllResolution(
     background-color: ${colors.background_color};
     height: 3em;
     overflow: hidden;
-    
     `,
     {
         tablet:`
@@ -29,7 +28,9 @@ const StyledSidebar = generateStylesOnAllResolution(
 
 const StyledBarItems = generateStylesOnAllResolution( 
     `display: flex;
-    justify-content: space-around;`,
+    justify-content: space-around;
+    height: 100%; 
+    `,
     {
         tablet:`display: flex; 
             flex-direction: column;
@@ -45,4 +46,14 @@ const StyledBarItems = generateStylesOnAllResolution(
     styled.div
 )
 
-export { StyledSidebar, StyledBarItems}
+const MobileHiddenBarItem = generateStylesOnAllResolution(
+    `display: none;`,
+    {
+        tablet:``,
+        laptop:``,
+        widescreen:``
+    },
+    styled.div
+    )
+
+export { StyledSidebar, StyledBarItems, MobileHiddenBarItem}

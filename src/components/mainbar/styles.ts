@@ -3,7 +3,8 @@ import {generateStylesOnAllResolution} from '../../utils/mediaQueries'
 
 const StyledProfile = generateStylesOnAllResolution( 
     `width: 3em;
-    align-self: center;`,
+    align-self: center;
+    padding-left: 1.5rem;`,
     {
         tablet:``,
         laptop:``,
@@ -13,7 +14,8 @@ const StyledProfile = generateStylesOnAllResolution(
 )
 
 const StyledMainbarWithProfile = generateStylesOnAllResolution( 
-    `display: flex;`,
+    `display: flex;
+    `,
     {
         tablet:``,
         laptop:``,
@@ -25,9 +27,10 @@ const StyledMainbarWithProfile = generateStylesOnAllResolution(
 const StyledMainbar = generateStylesOnAllResolution( 
     `display: flex;
     justify-content: space-between;
+    
     padding: 1em;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.5em;
     width: 100%;`,
     {
         tablet:`grid-area: mainbar`,
@@ -37,4 +40,16 @@ const StyledMainbar = generateStylesOnAllResolution(
     styled.div
 )
 
-export {StyledMainbar, StyledMainbarWithProfile, StyledProfile}
+const StyledStarIcon = generateStylesOnAllResolution(
+    `
+    height: 100%;
+    `,
+    {
+        tablet:``,
+        laptop:``,
+        widescreen:``
+    },
+    styled.div
+)
+
+export {StyledMainbar, StyledMainbarWithProfile, StyledProfile, StyledStarIcon}
