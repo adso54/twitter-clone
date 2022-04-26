@@ -1,4 +1,4 @@
-import {StyledSidebar, StyledBarItems, MobileHiddenBarItem} from './styles'
+import { StyledSidebar, StyledBarItems, StyledLogoItem, StyledProfileItem} from './styles'
 
 import {BarItem} from '../index'
 import {LogoItem} from '../index'
@@ -10,17 +10,17 @@ const Sidebar = () => {
     return(
         <StyledSidebar>
             <StyledBarItems>
-                <MobileHiddenBarItem>
+                <StyledLogoItem>
                     <LogoItem Icon = {LogoIcon} />
-                </MobileHiddenBarItem>
+                </StyledLogoItem>
                 <BarItem displayText ='Home' Icon = {HouseIcon} />
                 <BarItem displayText ='Search' Icon = {MagnifierIcon} />
                 <BarItem displayText ='Notifications' Icon = {BellIcon} />
                 <BarItem displayText ='Messages' Icon = {LetterIcon} />
                 <NewTwitt/> 
-                <MobileHiddenBarItem>
+                <StyledProfileItem>
                     <BarItem displayText ='Profile' Icon = {UserIcon} />                      
-                </MobileHiddenBarItem>
+                </StyledProfileItem>
             </StyledBarItems>
         </StyledSidebar>
     )

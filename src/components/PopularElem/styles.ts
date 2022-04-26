@@ -1,12 +1,12 @@
 import styled from 'styled-components'
-import colors from '../../utils/appColors'
+import theme from '../../utils/theme'
 import {generateStylesOnAllResolution} from '../../utils/mediaQueries'
 
 const StyledPopularElement = generateStylesOnAllResolution( 
     `display: none;
-    border: 1px solid ${colors.font_secondary};`,
+    border: 1px solid ${theme.border_color};`,
     {
-        tablet:`display: flex;`,
+        tablet:`display: none;`,
         laptop:``,
         widescreen:``
     },

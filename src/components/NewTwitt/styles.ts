@@ -1,11 +1,12 @@
 import styled from 'styled-components'
 import {generateStylesOnAllResolution} from '../../utils/mediaQueries'
+import theme from '../../utils/theme'
 
 const StyledNewTwitt = generateStylesOnAllResolution( 
     `display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1DA1F2; 
+    background-color: ${theme.new_twitt_button_color}; 
     border: none;
     border-radius: 50%;
     width: 5em;
@@ -14,7 +15,11 @@ const StyledNewTwitt = generateStylesOnAllResolution(
     bottom: 4em;
     right: 3em;`,
     {
-        tablet:``,
+        tablet:`
+            position: static;
+            width: 5em;
+            height: 5em;
+        `,
         laptop:``,
         widescreen:``
     },

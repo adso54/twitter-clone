@@ -4,7 +4,6 @@ import {generateStylesOnAllResolution} from './utils/mediaQueries'
 
 const StyledApp = generateStylesOnAllResolution( 
     `
-    background-color: ${colors.background_color};
     color: ${colors.font_primary}; 
     height: 100vh;
     display: flex;
@@ -12,6 +11,7 @@ const StyledApp = generateStylesOnAllResolution(
     `,
     {
         tablet:`display: grid;
+            grid-template-columns: 15% auto 15%;
             grid-template-areas: 
             "sidebar mainbar popular"
             "sidebar postslist popular" `,

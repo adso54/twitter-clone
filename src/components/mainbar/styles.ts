@@ -6,7 +6,7 @@ const StyledProfile = generateStylesOnAllResolution(
     align-self: center;
     padding-left: 1.5rem;`,
     {
-        tablet:``,
+        tablet:`display: none;`,
         laptop:``,
         widescreen:``
     },
@@ -27,7 +27,6 @@ const StyledMainbarWithProfile = generateStylesOnAllResolution(
 const StyledMainbar = generateStylesOnAllResolution( 
     `display: flex;
     justify-content: space-between;
-    
     padding: 1em;
     font-weight: bold;
     font-size: 1.5em;

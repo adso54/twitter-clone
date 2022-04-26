@@ -14,10 +14,9 @@ const StyledSidebar = generateStylesOnAllResolution(
     `,
     {
         tablet:`
-            width: auto;
             position: static; 
             grid-area: sidebar;
-            height: 100vh;
+            height: 100%;
             `,
             
         laptop:``,
@@ -35,25 +34,44 @@ const StyledBarItems = generateStylesOnAllResolution(
         tablet:`display: flex; 
             flex-direction: column;
             height: 100%;
-            justify-content: flex-start;
-            width: 3em;
-            align-items: flex-end;
-            padding-left: 3em;
-            padding-right: 1em;`,
+            justify-content: start;
+            width: 100%;
+            align-items: center;
+            gap: 1.5rem; 
+            `,
         laptop:``,
         widescreen:``
     },
     styled.div
 )
 
-const MobileHiddenBarItem = generateStylesOnAllResolution(
+const StyledLogoItem = generateStylesOnAllResolution(
     `display: none;`,
     {
-        tablet:``,
+        tablet:`
+            display: flex;
+            
+        `,
         laptop:``,
         widescreen:``
     },
     styled.div
     )
 
-export { StyledSidebar, StyledBarItems, MobileHiddenBarItem}
+const StyledProfileItem = generateStylesOnAllResolution(
+    `display: none;`,
+    {
+        tablet:`
+            display: flex;
+            align-items: end;
+            height: 100%;
+            padding-bottom: 3rem;
+            
+        `,
+        laptop:``,
+        widescreen:``
+    },
+    styled.div
+    )
+
+export { StyledSidebar, StyledBarItems, StyledLogoItem, StyledProfileItem}
