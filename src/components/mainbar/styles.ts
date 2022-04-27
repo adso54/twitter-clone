@@ -1,5 +1,19 @@
 import styled from 'styled-components'
 import {generateStylesOnAllResolution} from '../../utils/mediaQueries'
+import theme from '../../utils/theme'
+
+
+const StyledMainbarWithProfile = generateStylesOnAllResolution( 
+    `display: flex;
+    border: solid 1px ${theme.border_color};
+    `,
+    {
+        tablet:``,
+        laptop:``,
+        widescreen:``
+    },
+    styled.div
+)
 
 const StyledProfile = generateStylesOnAllResolution( 
     `width: 3em;
@@ -7,17 +21,6 @@ const StyledProfile = generateStylesOnAllResolution(
     padding-left: 1.5rem;`,
     {
         tablet:`display: none;`,
-        laptop:``,
-        widescreen:``
-    },
-    styled.div
-)
-
-const StyledMainbarWithProfile = generateStylesOnAllResolution( 
-    `display: flex;
-    `,
-    {
-        tablet:``,
         laptop:``,
         widescreen:``
     },

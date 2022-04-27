@@ -8,7 +8,7 @@ const PopularList = (props: PopularElementsList) => {
     return(
         <StyledPopular>
             <StyledPopularBar>
-                Najpopularniejsze dla Ciebie
+                Najpopularniejsze dla <br/>Ciebie
             </StyledPopularBar>
             <StyledPopularList>
                 {React.useMemo(() => popularList.map((element) => {

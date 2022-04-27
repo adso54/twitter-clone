@@ -6,8 +6,16 @@ const StyledPopularElement = generateStylesOnAllResolution(
     `display: none;
     border: 1px solid ${theme.border_color};`,
     {
-        tablet:`display: none;`,
-        laptop:``,
+        tablet:``,
+        laptop:`
+            display: flex;
+            flex-direction: column; 
+            gap: 0.2rem;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            padding-left: 0.5rem;
+            height: 100%;
+        `,
         widescreen:``
     },
     styled.div
@@ -17,7 +25,10 @@ const StyledHeader = generateStylesOnAllResolution(
     ``,
     {
         tablet:``,
-        laptop:``,
+        laptop:`
+            
+            color: ${theme.font_secondary};
+        `,
         widescreen:``
     },
     styled.div
@@ -27,7 +38,9 @@ const StyledName = generateStylesOnAllResolution(
     ``,
     {
         tablet:``,
-        laptop:``,
+        laptop:`
+            font-weight: bold;    
+        `,
         widescreen:``
     },
     styled.div
@@ -37,7 +50,9 @@ const StyledTweets = generateStylesOnAllResolution(
     ``,
     {
         tablet:``,
-        laptop:``,
+        laptop:`
+            color: ${theme.font_secondary};
+        `,
         widescreen:``
     },
     styled.div

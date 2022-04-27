@@ -10,10 +10,16 @@ const StyledPopular = generateStylesOnAllResolution(
             flex-direction: column;
             width: 100%;
             grid-area: popular;
-            border: solid 1px ${theme.border_color};`,
-        laptop:`display: flex;
+        `,
+        laptop:`
+            background-color: ${theme.popular_list_background_color};
+            display: flex;
             flex-direction: column;
-            width: 100%;`,
+            height: 70%;
+            width: 90%;
+            margin: 1rem;
+            border-radius: 25px;
+        `,
         widescreen:``
     },
     styled.div
@@ -24,7 +30,13 @@ const StyledPopularBar = generateStylesOnAllResolution(
     `,
     {
         tablet:``,
-        laptop:`display: inline;`,
+        laptop:`
+            display: flex;
+            align-self: flex-start;
+            padding: 1rem;
+            font-size: 1.2rem;
+            font-weight: bold;
+        `,
         widescreen:``
     },
     styled.div
@@ -34,7 +46,10 @@ const StyledPopularList = generateStylesOnAllResolution(
     ``,
     {
         tablet:``,
-        laptop:``,
+        laptop:`
+            display: flex;
+            flex-direction: column;    
+        `,
         widescreen:``
     },
     styled.div

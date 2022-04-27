@@ -7,7 +7,7 @@ const PopularElement = (props: PopularElement) => {
         <StyledPopularElement>
             <StyledHeader>{header}</StyledHeader>
             <StyledName>{name}</StyledName>
-            {tweets ? <StyledTweets>{tweets}</StyledTweets>: null}
+            {tweets ? <StyledTweets>Tweety: {tweets}</StyledTweets>: null}
         </StyledPopularElement>
     )
 }

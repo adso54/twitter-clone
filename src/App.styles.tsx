@@ -12,10 +12,11 @@ const StyledApp = generateStylesOnAllResolution(
     {
         tablet:`display: grid;
             grid-template-columns: 15% auto 15%;
+            align-content: start;
             grid-template-areas: 
             "sidebar mainbar popular"
             "sidebar postslist popular" `,
-        laptop:``,
+        laptop:`grid-template-columns: 15% auto 25%;`,
         widescreen:``
     },
     styled.div
