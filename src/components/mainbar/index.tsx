@@ -10,7 +10,7 @@ const Mainbar = () => {
     return(
         <StyledMainbarWithProfile>
             <StyledProfile>
-                <BarItem displayText ='Profile' Icon = {UserIcon} hiddenText = {true}/>
+                <BarItem displayText ='Profile' Icon = {UserIcon}/>
             </StyledProfile>
             <StyledMainbar>
                 Główna

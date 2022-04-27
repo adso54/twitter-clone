@@ -19,7 +19,7 @@ const Sidebar = () => {
                 <BarItem displayText ='Messages' Icon = {LetterIcon} />
                 <NewTwitt/> 
                 <StyledProfileItem>
-                    <BarItem displayText ='Profile' Icon = {UserIcon} />                      
+                    <BarItem displayText ='Your Name' Icon = {UserIcon} />                      
                 </StyledProfileItem>
             </StyledBarItems>
         </StyledSidebar>

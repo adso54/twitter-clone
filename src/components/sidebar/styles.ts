@@ -40,17 +40,21 @@ const StyledBarItems = generateStylesOnAllResolution(
             gap: 1.5rem; 
             `,
         laptop:``,
-        widescreen:``
+        widescreen:`
+            align-items: start;
+            padding-left: 1rem;
+        `
     },
     styled.div
 )
 
 const StyledLogoItem = generateStylesOnAllResolution(
-    `display: none;`,
+    `display: none;
+    `,
     {
         tablet:`
             display: flex;
-            
+            padding-top: 2rem;
         `,
         laptop:``,
         widescreen:``

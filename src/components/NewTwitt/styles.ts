@@ -21,7 +21,10 @@ const StyledNewTwitt = generateStylesOnAllResolution(
             height: 5em;
         `,
         laptop:``,
-        widescreen:``
+        widescreen:`
+            border-radius: 2.5rem;
+            width: 10rem;
+        `
     },
     styled.div
 )
@@ -31,7 +34,7 @@ const StyledTwittIcon = generateStylesOnAllResolution(
     {
         tablet:``,
         laptop:``,
-        widescreen:``
+        widescreen:`display: none;`
     },
     styled.div
 )
@@ -41,7 +44,10 @@ const StyledText = generateStylesOnAllResolution(
     {
         tablet:``,
         laptop:``,
-        widescreen:``
+        widescreen:`
+            display: flex;
+            font-weight: bold;
+        `
     },
     styled.div
 )

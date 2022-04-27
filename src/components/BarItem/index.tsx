@@ -1,7 +1,7 @@
 import {StyledBarItem,StyledIcon, StyledText } from './styles'
 
-const BarItem = (props: {displayText: string, Icon: any, hiddenText?: boolean}) => {
-    const {displayText, Icon, hiddenText} = props;
+const BarItem = (props: {displayText: string, Icon: any}) => {
+    const {displayText, Icon} = props;
     
     return(
         <StyledBarItem>
@@ -9,7 +9,7 @@ const BarItem = (props: {displayText: string, Icon: any, hiddenText?: boolean}) 
                 <Icon />
             </StyledIcon>
             <StyledText>
-                {!hiddenText ? displayText : ""}
+                {displayText}
             </StyledText>
         </StyledBarItem>
     )
