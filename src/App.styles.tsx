@@ -1,10 +1,10 @@
 import styled from 'styled-components'
-import colors from './utils/appColors'
+import theme from './utils/theme'
 import {generateStylesOnAllResolution} from './utils/mediaQueries'
 
 const StyledApp = generateStylesOnAllResolution( 
     `
-    color: ${colors.font_primary}; 
+    color: ${theme.font_primary}; 
     height: 100vh;
     display: flex;
     flex-direction: column;

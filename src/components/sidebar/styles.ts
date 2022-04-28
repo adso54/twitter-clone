@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import colors from '../../utils/appColors'
 import theme from '../../utils/theme'
 import {generateStylesOnAllResolution} from '../../utils/mediaQueries'
 
@@ -8,7 +7,7 @@ const StyledSidebar = generateStylesOnAllResolution(
     bottom: 0; 
     width: 100%;
     border: solid 1px ${theme.border_color};
-    background-color: ${colors.background_color};
+    background-color: ${theme.background_color};
     height: 3em;
     overflow: hidden;
     `,
