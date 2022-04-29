@@ -9,7 +9,7 @@ const BarItem = (props: {displayText: string, Icon: any}) => {
                 <Icon />
             </StyledIcon>
             <StyledText>
-                {displayText}
+               {displayText}
             </StyledText>
         </StyledBarItem>
     )

@@ -1,0 +1,302 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendered Sidebar match the snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <nav
+        class="sc-bczRLJ eQeEmt"
+      >
+        <div
+          class="sc-gsnTZi bUtEwk"
+        >
+          <div
+            class="sc-dkzDqf guXRpg"
+          >
+            <div
+              class="sc-iBkjds iXbJlf"
+            >
+              <svg>
+                logo.svg
+              </svg>
+            </div>
+          </div>
+          <div
+            class="sc-eCYdqJ huTjpC"
+          >
+            <div
+              class="sc-gKXOVf uFCtg"
+            >
+              <svg>
+                house.svg
+              </svg>
+            </div>
+            <div
+              class="sc-jSMfEi dehjIL"
+            >
+              Home
+            </div>
+          </div>
+          <div
+            class="sc-eCYdqJ huTjpC"
+          >
+            <div
+              class="sc-gKXOVf uFCtg"
+            >
+              <svg>
+                magnifier.svg
+              </svg>
+            </div>
+            <div
+              class="sc-jSMfEi dehjIL"
+            >
+              Search
+            </div>
+          </div>
+          <div
+            class="sc-eCYdqJ huTjpC"
+          >
+            <div
+              class="sc-gKXOVf uFCtg"
+            >
+              <svg>
+                bell.svg
+              </svg>
+            </div>
+            <div
+              class="sc-jSMfEi dehjIL"
+            >
+              Notifications
+            </div>
+          </div>
+          <div
+            class="sc-eCYdqJ huTjpC"
+          >
+            <div
+              class="sc-gKXOVf uFCtg"
+            >
+              <svg>
+                letter.svg
+              </svg>
+            </div>
+            <div
+              class="sc-jSMfEi dehjIL"
+            >
+              Messages
+            </div>
+          </div>
+          <div
+            class="sc-iqcoie eOUlpy"
+          >
+            <div
+              class="sc-crXcEl gGjUQO"
+            >
+              <svg>
+                feather.svg
+              </svg>
+            </div>
+            <div
+              class="sc-evZas eRbBoj"
+            >
+              Tweet
+            </div>
+          </div>
+          <div
+            class="sc-hKMtZM gmrExI"
+          >
+            <div
+              class="sc-eCYdqJ huTjpC"
+            >
+              <div
+                class="sc-gKXOVf uFCtg"
+              >
+                <svg>
+                  user.svg
+                </svg>
+              </div>
+              <div
+                class="sc-jSMfEi dehjIL"
+              >
+                Your Name
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </body>,
+  "container": <div>
+    <nav
+      class="sc-bczRLJ eQeEmt"
+    >
+      <div
+        class="sc-gsnTZi bUtEwk"
+      >
+        <div
+          class="sc-dkzDqf guXRpg"
+        >
+          <div
+            class="sc-iBkjds iXbJlf"
+          >
+            <svg>
+              logo.svg
+            </svg>
+          </div>
+        </div>
+        <div
+          class="sc-eCYdqJ huTjpC"
+        >
+          <div
+            class="sc-gKXOVf uFCtg"
+          >
+            <svg>
+              house.svg
+            </svg>
+          </div>
+          <div
+            class="sc-jSMfEi dehjIL"
+          >
+            Home
+          </div>
+        </div>
+        <div
+          class="sc-eCYdqJ huTjpC"
+        >
+          <div
+            class="sc-gKXOVf uFCtg"
+          >
+            <svg>
+              magnifier.svg
+            </svg>
+          </div>
+          <div
+            class="sc-jSMfEi dehjIL"
+          >
+            Search
+          </div>
+        </div>
+        <div
+          class="sc-eCYdqJ huTjpC"
+        >
+          <div
+            class="sc-gKXOVf uFCtg"
+          >
+            <svg>
+              bell.svg
+            </svg>
+          </div>
+          <div
+            class="sc-jSMfEi dehjIL"
+          >
+            Notifications
+          </div>
+        </div>
+        <div
+          class="sc-eCYdqJ huTjpC"
+        >
+          <div
+            class="sc-gKXOVf uFCtg"
+          >
+            <svg>
+              letter.svg
+            </svg>
+          </div>
+          <div
+            class="sc-jSMfEi dehjIL"
+          >
+            Messages
+          </div>
+        </div>
+        <div
+          class="sc-iqcoie eOUlpy"
+        >
+          <div
+            class="sc-crXcEl gGjUQO"
+          >
+            <svg>
+              feather.svg
+            </svg>
+          </div>
+          <div
+            class="sc-evZas eRbBoj"
+          >
+            Tweet
+          </div>
+        </div>
+        <div
+          class="sc-hKMtZM gmrExI"
+        >
+          <div
+            class="sc-eCYdqJ huTjpC"
+          >
+            <div
+              class="sc-gKXOVf uFCtg"
+            >
+              <svg>
+                user.svg
+              </svg>
+            </div>
+            <div
+              class="sc-jSMfEi dehjIL"
+            >
+              Your Name
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
